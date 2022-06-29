@@ -3,6 +3,7 @@ package com.rajmanish.projlab;
 import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
+import javax.servlet.jsp.JspWriter;
 
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {
@@ -14,7 +15,6 @@ public class HelloServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
-
         // Hello
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
