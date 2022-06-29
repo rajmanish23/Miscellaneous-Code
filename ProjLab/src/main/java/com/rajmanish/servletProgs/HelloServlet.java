@@ -1,9 +1,8 @@
-package com.rajmanish.projlab;
+package com.rajmanish.servletProgs;
 
 import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
-import javax.servlet.jsp.JspWriter;
 
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {

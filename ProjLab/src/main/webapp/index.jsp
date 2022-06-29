@@ -9,5 +9,6 @@
 </h1>
 <br/>
 <a href="./JSPPrograms">open JSP programs</a>
+<a href="hello-servlet">Hello</a>
 </body>
 </html>
