@@ -7,6 +7,6 @@
     <br><br>
     <a href="./CalculatorJSP">JSP to calculate 2 numbers</a>
     <br><br>
-    <a href="./DatabaseJSP">JSP to do Database stuff</a>
+    <a href="${pageContext.request.contextPath}/hello-servlet">Hello Servlet Program</a>
 </body>
 </html>
